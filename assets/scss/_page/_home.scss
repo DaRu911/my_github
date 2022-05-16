@@ -1,0 +1,16 @@
+.card{
+    width: 500px;
+    &__image{
+        width: 200px;
+    }
+    &__title{
+        font-size: small;
+    }
+    &__text{
+        font-weight: bold;
+        font-size: 20px;
+        &:hover{
+            color: red;
+        }
+    }
+}
